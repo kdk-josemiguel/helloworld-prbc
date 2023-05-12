@@ -49,7 +49,7 @@ class _HelloWorldScreen extends State<HelloWorldScreen> {
                                 height: 49.0,
                                 width: 137.0,
                                 decoration: BoxDecoration(
-                                  color: Color(0xf22f2ccd),
+                                  color: Color(0xf2f48014),
                                   borderRadius:
                                       BorderRadius.all(Radius.circular(30)),
                                 ),
@@ -70,7 +70,7 @@ class _HelloWorldScreen extends State<HelloWorldScreen> {
                                       fontSize: 16,
                                       fontWeight: FontWeight.w700,
                                       letterSpacing: 0,
-                                      color: Colors.white,
+                                      color: Color(0xff1026ec),
                                     ),
                                     textAlign: TextAlign.left,
                                   )),
