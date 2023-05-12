@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class HelloWorldButtonCustom extends StatefulWidget {
   final Widget? child;
+
   HelloWorldButtonCustom({
     Key? key,
     this.child,
@@ -14,6 +15,10 @@ class HelloWorldButtonCustom extends StatefulWidget {
 class _HelloWorldButtonCustomState extends State<HelloWorldButtonCustom> {
   @override
   Widget build(BuildContext context) {
-    return widget.child!;
+    return GestureDetector(
+        onTap: () {
+          print("Hello World!!!");
+        },
+        child: widget.child);
   }
 }
